@@ -1,0 +1,107 @@
+/* Apply a background gradient to the entire page */
+body {
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: 0;
+    background: linear-gradient(to left, #440488, #2575fc);
+    color: #fff;
+
+}
+
+/* Center container styling with a slight shadow and rounded corners */
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2em;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: monospace;
+    margin-top: 500px;
+    width:800px;
+}
+
+/* Style for the heading */
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: monospace;
+}
+
+/* Input field styling */
+input[type="text"] {
+    padding: 10px;
+    font-size: 1.2em;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+
+    font-family: monospace;
+}
+
+/* Button styling with a hover effect */
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #2575fc;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    font-family: monospace;
+}
+
+button:hover {
+    background-color: #6a11cb;
+}
+
+/* Styling for game messages */
+#message, #message2 {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.player {
+    flex: 1;
+    padding: 1em;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    margin: 0 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.game-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+/* Style for each player container */
+.player-container {
+    flex: 1;
+    margin: 0 1em;
+}
+
+#inputWord{
+    margin-bottom: 10px;
+}
+
+#buttonlal{
+    margin-bottom: 10px;
+}
+
+.dictionary-button:hover {
+    background-color: #ffffff;
+    color:black;
+
+}
+
+.dictionary-button{
+    color:white;
+    font-weight:bolder;
+}

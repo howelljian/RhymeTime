@@ -1,0 +1,54 @@
+/* Apply a background gradient to the entire page */
+body {
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: 0;
+    background: linear-gradient(to left, #440488, #2575fc);
+    color: #fff;
+}
+
+/* Center container styling with a slight shadow and rounded corners */
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2em;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: monospace;
+    margin-top: 600px;
+}
+
+/* Style for the heading */
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: monospace;
+    font-size: 30px;
+}
+
+/* Button styling with a hover effect */
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #2575fc;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    font-family: monospace;
+}
+
+button:hover {
+    background-color: #6a11cb;
+}
+
+
+
+
+
+
